@@ -1,0 +1,10 @@
+package kodlamaio.hrms.api.controllers;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController //Sen controllersın demektir.
+@RequestMapping ("/api/products") //Sayfamıza böyle bir istek gelir ise aşağıda bulunan kodu çalıştır demektir
+public class JobPositionsController {
+
+}

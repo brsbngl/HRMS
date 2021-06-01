@@ -1,0 +1,35 @@
+package kodlamaio.hrms.business.concretes;
+
+import java.util.List;
+
+import kodlamaio.hrms.business.abstracts.JobPositionService;
+import kodlamaio.hrms.entities.concretes.JobPosition;
+
+public class JobPositionManager implements JobPositionService{
+
+	@Override
+	public List<JobPosition> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void add(JobPosition position) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(JobPosition position) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(JobPosition position) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+}

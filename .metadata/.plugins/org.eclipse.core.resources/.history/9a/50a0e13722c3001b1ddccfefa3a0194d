@@ -1,0 +1,32 @@
+package kodlamaio.hrms.entities.concretes;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import lombok.Data;
+
+
+@Data
+@Entity
+@Table (name = "job_positions")
+public class JobPosition {
+
+	private int id;
+	
+	
+	private int userId;
+	
+	
+	private String name;
+
+
+	public JobPosition(int id, int userId, String name) {
+		super();
+		this.id = id;
+		this.userId = userId;
+		this.name = name;
+	}
+	
+	
+	
+
+}

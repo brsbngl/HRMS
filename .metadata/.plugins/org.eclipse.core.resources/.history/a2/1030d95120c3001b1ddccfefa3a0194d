@@ -1,0 +1,19 @@
+package kodlamaio.hrms.entities.concretes;
+
+
+public class JobPosition {
+	
+	
+	
+	private int id;
+	
+	
+	private int userId;
+	
+	
+	private String name;
+	
+	
+	
+
+}

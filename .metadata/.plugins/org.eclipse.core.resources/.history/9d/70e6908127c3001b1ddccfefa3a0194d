@@ -1,0 +1,6 @@
+package kodlamaio.hrms.business.concretes;
+
+public class JobPositionManager {
+	List<JobPosition> getAll();
+
+}
